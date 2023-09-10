@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="st.css" />
+    <title>responsive design</title>
+  </head>
+  <body>
+    <header>
+      <div class="flex-nav">
+        <div class="tgl">
+          <h2 class="logo">Z_<span class="breed">Breed</span></h2>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <nav class="navbar-container">
+          <ul class="nav-bar">
+            <li><a href="#about" class="scroll-link">About</a></li>
+            <li><a href="#features" class="scroll-link">Features</a></li>
+            <li><a href="#company" class="scroll-link">Company</a></li>
+            <li><a href="#pricing" class="scroll-link">Pricing</a></li>
+            <li>
+              <a href="#social media" class="scroll-link">🅱️➡️💻</a>
+            </li>
+            <li>
+              <a href="#get started" id="border" class="scroll-link"
+                >Get started</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <div class="banner">
+      <div class="container">
+        <h1>Welcome to Z_breed</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eos
+          neque sunt in? Id, necessitatibus quos quisquam distinctio laudantium
+          fugiat?
+        </p>
+        <a href="#features" class="scroll-link btn btn-white"
+          >explore features</a
+        >
+      </div>
+    </div>
+    <div class="section">
+      <div class="box">
+        <img src="./03.jpg" alt="man calculating ona desk facing a laptop" />
+      </div>
+      <div class="box">
+        <p class="brain-box">About Us</p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
+        blanditiis tenetur iure fugit impedit ipsum repudiandae necessitatibus
+        et error, eos, voluptatibus eligendi. Rem distinctio dignissimos nobis
+        eaque est nihil eius. Magni, nesciunt excepturi delectus ea voluptatem
+        cupiditate at ex iure! Modi incidunt aut placeat beatae. Placeat quos
+        similique natus dolore hic asperiores quae vitae at. Labore veniam
+        eveniet consectetur voluptas.
+      </div>
+    </div>
+    <section class="section2" id="get started">
+      <div class="title">
+        <h2>Web Developent Article</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          aperiam!
+        </p>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./hero-bcg.jpeg" alt="" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">HTML</button>
+            <button class="tab-btn" data-id="vision">CSS</button>
+            <button class="tab-btn" data-id="goals">JavaScript</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+              <h4>html</h4>
+              <p>
+                If you're reading this article I'd like to assume that you're
+                new to web developent and you need clarity on certain things,
+                HTML as stated above is an acronym for "hyper text markup
+                language", this can be likened ti the skeletal frame of a
+                website. its pretty easy to grasp and use before we move to the
+                next i'd like to add that we have diffent types of html and they
+                are Semantic and Non- Semantic
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="vision">
+              <h4>CSS</h4>
+              <p>
+                This is known as a cascading stylesheet and it can be used to
+                design the look and feel of your websites to your preference.
+                The major topic to look out for are
+                typography,grid,flex-box,positioning,units and media queries as
+                you'll build up on most of these concepts as advance and begin
+                to build projects
+              </p>
+              <ul>
+                <li>Units</li>
+                <li>CSS positioning</li>
+                <li>Typography</li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <h4>JavaScript</h4>
+              <p>
+                JavaScript is a scripting languag and it is read line by line by
+                an AI called the V8 engine, this is uses to add functionality to
+                a website, notice the way i rendered the name above, this called
+                CamelCase: we use this naming convention in JavaScript where you
+                start the new word with a caps e.g capitalLetter. As a developer
+                or an aspiring developer knowledge of javaScript is essential in
+                your journey. After you've leant JavaScript you can proceed by
+                learning Recact which is a framework of javaScript and if you
+                wish to proceed to backend engineering you can also learn node
+                which is also a JavaScript framework, i hope I've been able to
+                help you out with this article, if i have pls kindly smash the
+                like button and if it isn't detailed enough reach out to me in
+                the comments, have a great day!
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+    <div class="footer">
+      <footer class="sec">
+        <p>
+          copyright &copy; Z_Breed International group of companies
+          <span id="date"></span>. all rights reserved
+        </p>
+      </footer>
+    </div>
+    <a class="scroll-link top-link" href="#">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="sc.js"></script>
+  </body>
+</html>
